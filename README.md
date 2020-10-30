@@ -55,3 +55,8 @@ You can run the client script with:
 This will write 2 files, `cert.pem` and `key.pem`. You can provide
 alternative paths so long as the executing user has permissions to
 write to them!
+
+To delete access to the certificate:
+```sh
+./admin.sh delscript default my-cert
+```
