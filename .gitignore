@@ -1,0 +1,6 @@
+*.key
+*.crt
+*.pem
+client.sh
+output.sh
+/_*
